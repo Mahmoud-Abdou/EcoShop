@@ -2,10 +2,7 @@ import React, { useEffect } from 'react'
 import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col, Image, ListGroup, Card, Button, Form, ListGroupItem } from 'react-bootstrap'
-import Rating from '../components/Rating.js'
-import { listProductDetails } from '../actions/productActions.js'
 import Message from '../components/Message.js'
-import Loader from '../components/Loader.js'
 import { addToCart, removeFromCart } from '../actions/cartActions.js'
 
 const CartScreen = () => {
